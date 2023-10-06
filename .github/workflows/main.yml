@@ -2,7 +2,7 @@ name: Get CPM
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: write
